@@ -19,7 +19,7 @@ const SingleProduct = ({ e }) => {
         <div id="cutprice">{e.CutPrice}</div>
         <div id="modifiedprice">{e.Price}</div>
       </div>
-      <div>Stock :{e.InStock}</div>
+      <div>{e.InStock=="Out of Stock" ? <div id="ofs">Out of Stock</div> : e.InStock=="56" ? <div id="instock">In Stock : 56</div>: e.InStock=="5" ? <div id="low">Low Stock : 5</div>: ''}</div>
       </div>
     </div>
   );

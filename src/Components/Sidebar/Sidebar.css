@@ -19,7 +19,7 @@ padding-top: 40px;
 }
 
   
-@media (max-width: 1366px) {
+@media (max-width: 1066px) {
     #sidebar_Outer{
         display: none;
     }
