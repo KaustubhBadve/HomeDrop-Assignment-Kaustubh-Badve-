@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar1 from '../Components/Navbar1'
-import Products from '../Components/Products'
-import Sidebar from '../Components/Sidebar'
+import Navbar1 from '../Components/Navbar/Navbar1'
+import Products from '../Components/Product/Products'
+import Sidebar from '../Components/Sidebar/Sidebar'
 import "./Homepage.css"
 const Homepage = () => {
   return (

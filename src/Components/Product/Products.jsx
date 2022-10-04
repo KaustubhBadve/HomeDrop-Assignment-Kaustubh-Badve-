@@ -1,7 +1,8 @@
 import React from "react";
 import "./Products.css";
 import { BsGrid } from "react-icons/bs";
-import SingleProduct from "./SingleProduct";
+import SingleProduct from "../SingleProduct/SingleProduct";
+
 
 const Products = () => {
 

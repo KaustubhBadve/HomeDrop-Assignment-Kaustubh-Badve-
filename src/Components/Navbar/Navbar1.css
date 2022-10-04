@@ -96,8 +96,31 @@ nav input {
   display: flex;
   align-items: center;
 }
-@media all and (min-width: 768px) and (max-width: 1366px){
-#brandname,#sidebar,#right-Side{
+
+
+@media (max-width: 1366px) {
+  #right-Side{
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #brandname,#right-Side{
+    display: none;
+  }
+}
+
+@media (max-width: 508px) {
+  nav input {
+    width: 200px;
+  }
+  #sidebar{
+    display: none;
+  }
+  #searchbarWrapper {
+    margin-left: 0px;
+  }
+  nav {
+    padding-left: 0px;
   }
 }

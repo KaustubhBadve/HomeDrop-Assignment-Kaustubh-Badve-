@@ -106,39 +106,33 @@
   display: none;
 }
 
-@media all and (min-width: 768px) and (max-width: 1366px){
-    #products {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-        padding: 10px;
-        max-height: 78vh;
-        overflow: scroll;
-      }
-#sort{
+
+
+@media (max-width: 1366px) {
+  #products {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    max-height: 65vh;
+  }
+  #belowSort select{
     display: none;
-}
-#belowSort{
-    display: none;
-}
+  }
 }
 
-@media all and (min-width: 1080px) and (max-width: 1920px){
-    #products {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        padding: 10px;
-      }
-/* #sort{
+@media (max-width: 768px) {
+  #products {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 10px;
+    max-height: 65vh;
+  }
+  #belowSort,#sort{
     display: none;
-} */
-/* #belowSort{
-    display: none;
-} */
+  }
 }
-@media all and (min-width: 768px) and (max-width: 1366px){
-    #products {
-        grid-template-columns: repeat(1,1fr);
-        gap: 10px;
-        padding: 10px;
-      }
-}
+
+
+
+
+
