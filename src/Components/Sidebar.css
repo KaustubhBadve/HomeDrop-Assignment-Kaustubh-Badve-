@@ -1,0 +1,24 @@
+#sidebar_Outer{
+background-color: #0f172a;
+width:15%;
+height: 85vh;
+display: flex;
+flex-direction: column;
+gap: 30px;
+padding-left: 20px;
+padding-top: 40px;
+}
+
+#sidebar_Outer span{
+    color: #94A3B8;
+}
+#sidebar_Outer div{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+@media all and (min-width: 768px) and (max-width: 1366px){
+    #sidebar_Outer{
+        display: none;
+    }
+}
